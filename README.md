@@ -10,6 +10,8 @@ FreeIPA and create the account right away.
 
 **Here you go with some details:**
 
+## TODO
+
 1. For account naming policies and guidelines I meant whenever someone
 requests a GNOME account it should follow the naming policy as found
 at [1], that means the django app should double check whether the
@@ -66,7 +68,7 @@ Available for any further questions, thanks!
 
 
 
-[1] https://wiki.gnome.org/AccountsTeam/AccountNamePolicy
-[2] https://gitlab.gnome.org/GNOME/gnome-shell/raw/master/gnome-shell.doap
-[3] https://gitlab.gnome.org/repositories.doap
-[4] https://gitlab.gnome.org/GNOME
+- [1] https://wiki.gnome.org/AccountsTeam/AccountNamePolicy
+- [2] https://gitlab.gnome.org/GNOME/gnome-shell/raw/master/gnome-shell.doap
+- [3] https://gitlab.gnome.org/repositories.doap
+- [4] https://gitlab.gnome.org/GNOME

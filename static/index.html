@@ -1,7 +1,7 @@
 
 <!-- <link rel="stylesheet" href="/static/style.css"> -->
 
-<div>
+<div class="container">
     <form class="gnome_form" action="/your-name/" method="post">
 
      <!-- TODO
@@ -47,18 +47,27 @@
         resize: none;
        }
 
+       .container {
+        width: 500px;
+        clear: both;
+      }
+
+      .container input {
+        width: 100%;
+        clear: both;
+      }
+
     </style>
 
     <textarea name="sshkey" id="sshkey" cols="30" rows="10"></textarea>
 
     <p>
         <label for="gnome_module">Gnome Module: </label>
-        <input type="text" name="gnome-module" id="gnome-module" placeholder="Gnome Module you want to apply toGnome Module you want to apply to">
+        <input type="text" name="gnome-module" id="gnome-module" placeholder="Gnome Module you want to apply to">
     </p>
-
-    <p>
-        <input type="submit" value="OK">
-    </p>
-
 </form>
 </div>
+
+<p>
+    <input type="submit" value="OK">
+</p>
