@@ -17,8 +17,5 @@ from django import forms
 #     you may have your gnome.org account name changed, should you want so.
 
 
-
-
-
 class NameForm(forms.Form):
-    your_name = forms.CharField(label='account_name', max_length=10)
+	your_name = forms.CharField(label='account_name', max_length=10)
